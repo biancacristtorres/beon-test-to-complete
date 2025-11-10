@@ -1,0 +1,61 @@
+# ------------------------------
+# Node & Dependencies
+# ------------------------------
+node_modules/
+package-lock.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ------------------------------
+# Playwright
+# ------------------------------
+playwright-report/
+test-results/
+blob-report/
+screenshots/
+videos/
+traces/
+*.zip
+
+# ------------------------------
+# Compiled TypeScript
+# ------------------------------
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# ------------------------------
+# Environment / Secrets
+# ------------------------------
+.env
+.env.*
+!.env.example
+
+# ------------------------------
+# IDE / OS / Editor files
+# ------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ------------------------------
+# Logs
+# ------------------------------
+*.log
+logs/

@@ -1,0 +1,13 @@
+{
+    "api": {
+        "goRest": {
+            "baseUrl": "https://gorest.co.in/public",
+            "token": "d40c2385caa7c52b7a6710b1c1238d3adb43037eadb0580f1c7d0a1f2928ec83",
+            "apiVersion": "v2"
+        }
+    },
+    "ui": {
+        "baseUrl": "https://demo.nopcommerce.com",
+        "productName": "Apple MacBook Pro"
+    }
+}
